@@ -1,0 +1,12 @@
+PROYECTO INTEGRADOR: LOCALIZACIÓN DE ROBOTS
+Fecha: 24-Feb-2026 12:14:36
+
+Archivo rosbag: mir_basics_20251210_114529.bag
+
+RESULTADOS:
+Método          |   RMSE [m] |    MAE [m] |    Max [m] |  RMSE θ[°]
+---------------------------------------------------------------------------
+EKF             |     0.7085 |     0.5845 |     1.1660 |       4.89
+UKF             |     0.5942 |     0.4929 |     1.0376 |       3.84
+MCL             |     0.5902 |     0.4945 |     0.9805 |      17.49
+Odometría       |     0.5749 |     0.4753 |     0.9731 |       3.70
